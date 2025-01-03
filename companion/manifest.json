@@ -1,0 +1,27 @@
+{
+	"id": "island-encoders",
+	"name": "Island Encoders",
+	"shortname": "Island",
+	"description": "Module to control Island video encoders",
+	"version": "2.0.0",
+	"license": "MIT",
+    "repository": "git+https://github.com/mandurphy/island-encoders-companion.git",
+	"bugs": "https://github.com/mandurphy/island-encoders-companion/issues",
+	"maintainers": [
+		{
+			"name": "Dan Murphy",
+			"email": "info@islandencoders.com"
+		}
+	],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "3.0.0",
+		"entrypoint": "../main.js"
+	},
+	"legacyIds": [],
+	"manufacturer": "Island Encoders",
+	"products": ["All models of Island Encoder"],
+	"keywords": ["video encoder", "streaming", "Island"]
+}
+

@@ -1,0 +1,28 @@
+module.exports = function (self) {
+	self.setVariableDefinitions([
+        { variableId: 'deviceModel', name: 'Device Model' },
+		{ variableId: 'deviceSerial', name: 'Device Serial' },
+		{ variableId: 'firmwareVersion', name: 'Firmware Version' },
+		{ variableId: 'videoInputFormat', name: 'Video Input Format' },
+		{ variableId: 'encodeStatus', name: 'Encoding Status' },
+        { variableId: 'cpuUsage', name: 'CPU Usage' },
+		{ variableId: 'memUsage', name: 'Memory Usage' },
+        { variableId: 'temperature', name: 'Temperature' },
+        { variableId: 'networkRx', name: 'Network RX' },
+        { variableId: 'networkTx', name: 'Network TX' },
+        { variableId: 'videoInputs', name: 'Video Input Status' },
+		{ variableId: 'networkConfig', name: 'Network Configuration' },
+		{ variableId: 'sysDate', name: 'System Date' },
+		{ variableId: 'ntpdConfig', name: 'NTPD Configuration' },
+        { variableId: 'encConfs', name: 'Encoding Configuration' },
+		{ variableId: 'streamConfs', name: 'Streaming Configuration' },
+        { variableId: 'hlsNdiTsConfs', name: 'HLS, NDI and TS Configuration'},
+        { variableId: 'platformLives', name: 'Multi-platform Live Configuration'},
+        { variableId: 'platformLivesState', name: 'Multi-platform Live Streaming State'},
+		{ variableId: 'overlayConfs', name: 'Overlay Configuration' },
+		{ variableId: 'defLayConfs', name: 'Default Layout Configurations' },
+		{ variableId: 'layoutConfs', name: 'Current Layout Configuration' },
+		{ variableId: 'outputConfs', name: 'Output Configurations' },
+		{ variableId: 'recordConfs', name: 'Recording Configuration' },
+	])
+}
