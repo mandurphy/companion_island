@@ -96,12 +96,7 @@ module.exports = function (self) {
 				await self.setNtpdConfig(server, enable, sync)
 			},
 		},
-    }
-}
 
-module.exports = function (self) {
-    self.setActionDefinitions({
-        ... (self.actions || {}),
 		set_enc_chns: {
 			name: 'Set Encoding Channel Parameters',
 			options: [
@@ -455,12 +450,8 @@ module.exports = function (self) {
 				await self.setAudioChns(id, codec, audioSrc, gain, samplerate, channels, bitrate)
 			},
 		},
-	}
+    }
 }
-
-module.exports = function (self) {
-  self.setActionDefinitions({
-    ... (self.actions || {}),
 		set_stream_confs: {
 			name: 'Set Video Stream Output Configuration',
 			options: [
